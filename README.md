@@ -1,17 +1,23 @@
 # Simple Blockchain in Python
 
-This project demonstrates the basic principles of a blockchain, implemented in Python. Blocks store data and are linked together using cryptographic hashes. Each block contains:
-- Index
-- Previous block’s hash
-- Data (e.g., transaction information)
-- Timestamp
-- Current block’s hash (calculated using SHA-256)
+## Overview
+This project demonstrates the fundamentals of a blockchain implemented in Python. Features include:
 
-## Features
-- Create a blockchain with an initial "genesis" block.
-- Add new blocks with transaction data.
-- Verify the integrity of the blockchain.
+- Basic blockchain structure with proof of work.
+- Transactions with wallet integration.
+- Mining rewards.
+- Decentralized peer-to-peer network simulation.
+- Web-based interface using Flask.
 
 ## How to Run
-1. Clone the repository: `git clone <repo-link>`
-2. Run the script: `python blockchain.py`
+
+### Prerequisites
+- Python 3.x
+- Flask (`pip install flask`)
+- ecdsa (`pip install ecdsa`)
+
+### Running the Blockchain
+1. Start the Flask application:
+   ```bash
+   python app.py
+
